@@ -9,6 +9,8 @@ US Coding just moved the dead keys of the US International keyboard layout to th
 
 This layout (including the `setup.exe`) was created using the [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339).
 
+**Compatibility**: Windows 7, 8, 8.1 and Windows 10; including 32Bit & 64Bit (amd64 & ia64) versions.
+
 Layers and Differences to the original US International Keyboard Layout
 -----------------------------------------------------------------------
 - Restored ^, \` and ~.
