@@ -15,16 +15,16 @@ Layers and Differences to the original US International Keyboard Layout
 
 
 ### Base Layer
-![Base Layer](USCoding.jpg)
+![Base Layer](images/USCoding.jpg)
 
 ### Shifted Base Layer
-![Shifted Base Layer](USCodingShft.jpg)
+![Shifted Base Layer](images/USCodingShft.jpg)
 
 ### AltGr Layer
-![AltGr Layer](USCodingAltGr.jpg)
+![AltGr Layer](images/USCodingAltGr.jpg)
 
 ### Shifted AltGr Layer
-![Shifted AltGr Layer](USCodingShftAltGr.jpg)
+![Shifted AltGr Layer](images/USCodingShftAltGr.jpg)
 
 
 Comparison
