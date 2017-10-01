@@ -1,5 +1,4 @@
-Improved Version Of The US International Keyboard Layout
-========================================================
+# Improved Version Of The US International Keyboard Layout
 
 > US International Keyboard Layout without dead keys on stupid positions.
 
@@ -11,28 +10,44 @@ This layout (including the `setup.exe`) was created using the [Microsoft Keyboar
 
 **Compatibility**: Windows 7, 8, 8.1 and Windows 10; including 32Bit & 64Bit (amd64 & ia64) versions.
 
-Layers and Differences to the original US International Keyboard Layout
------------------------------------------------------------------------
+## Layers and Differences to the original US International Keyboard Layout
 - Restored ^, \` and ~.
 - Dead Keys ^, \` and ~ moved to the AltGr Layer.
 - ¼, ½, ¾ moved to the Shift + AltGr Layer.
+- Dead keys followed by a `Space` will create a **UTF-8 combining character**.
 
+### Combining Character
 
-### Base Layer
+In digital typography, combining characters are characters that are intended to modify other characters. 
+
+| Character | Unicode                                                               | Key Sequence      | Example |
+| :-------: | --------------------------------------------------------------------- | ----------------- | :-----: |
+|    ̀       | [U+0300](http://www.fileformat.info/info/unicode/char/0300/index.htm) | AltGr + `, Space  |    à    |
+|    ́       | [U+0301](http://www.fileformat.info/info/unicode/char/0301/index.htm) | AltGr + ', Space  |    á    |
+|    ̂       | [U+0302](http://www.fileformat.info/info/unicode/char/0302/index.htm) | AltGr + 6         |    â    |
+|    ̃       | [U+0303](http://www.fileformat.info/info/unicode/char/0303/index.htm) | AltGr + ~, Space  |    ã    |
+|    ̈       | [U+0308](http://www.fileformat.info/info/unicode/char/0308/index.htm) | AltGr + Shift + ' |    ä    |
+
+It's possible to stack multiple combining characters: ý̀ c̈̃
+
+For more information see: https://en.wikipedia.org/wiki/Combining_character
+
+### Layers
+
+#### Base Layer
 ![Base Layer](images/USCoding.jpg)
 
-### Shifted Base Layer
+#### Shifted Base Layer
 ![Shifted Base Layer](images/USCodingShft.jpg)
 
-### AltGr Layer
+#### AltGr Layer
 ![AltGr Layer](images/USCodingAltGr.jpg)
 
-### Shifted AltGr Layer
+#### Shifted AltGr Layer
 ![Shifted AltGr Layer](images/USCodingShftAltGr.jpg)
 
 
-Comparison
-----------
+## Comparison
 
 | Character | US-Coding          | US-Standard | US-International      |
 | :-------: | ------------------ | ----------- | --------------------- |
@@ -48,13 +63,11 @@ Comparison
 | è         | AltGr + `, e       |             | `, e                  |
 | ý         | AltGr + ', y       |             | ', y                  |
 
-Installation
-------------
+## Installation
 Just download the [latest release](https://github.com/trunneml/uscoding-keyboardlayout/releases/latest), unzip it and run `setup.exe`.
 
 
-Manual Build
-------------
+## Manual Build
 
 1. Download and install [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
 2. Open the `uscoding.klc` file
