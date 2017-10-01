@@ -7,6 +7,8 @@ This Windows keyboard layout is based on the Microsoft US International keyboard
 
 US Coding just moved the dead keys of the US International keyboard layout to the AltGr layer. This way it feels like the normal US keyboard layout, but with the full character support of the international version and no keyboard layout switching is needed to write a email in French or German.
 
+This layout (including the `setup.exe`) was created using the [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339).
+
 Layers and Differences to the original US International Keyboard Layout
 -----------------------------------------------------------------------
 - Restored ^, \` and ~.
@@ -51,7 +53,6 @@ Just download the latest release, unzip it and run `setup.exe`.
 
 Manual Build
 ------------
-This layout (including the `setup.exe`) was created using the [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339).
 
 1. Download and install [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
 2. Open the `uscoding.klc` file
