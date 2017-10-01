@@ -14,16 +14,16 @@ Layers and Differences to the original US International Keyboard Layout
 - ¼, ½, ¾ moved to the Shift + AltGr Layer.
 
 
-**Base Layer**
+### Base Layer
 ![Base Layer](USCoding.jpg)
 
-**Shifted Base Layer**
+### Shifted Base Layer
 ![Shifted Base Layer](USCodingShft.jpg)
 
-**AltGr Layer**
+### AltGr Layer
 ![AltGr Layer](USCodingAltGr.jpg)
 
-**Shifted AltGr Layer**
+### Shifted AltGr Layer
 ![Shifted AltGr Layer](USCodingShftAltGr.jpg)
 
 
