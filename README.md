@@ -16,6 +16,24 @@ This layout (including the `setup.exe`) was created using the [Microsoft Keyboar
 - ¼, ½, ¾ moved to the Shift + AltGr Layer.
 - Dead keys followed by a `Space` will create a **UTF-8 combining character**.
 
+
+### Comparison
+
+| Character | US-Coding          | US-Standard  | US-International      |
+| :-------: | ------------------ | ------------ | --------------------- |
+| `         | `                  | `            | ` , **Space**         |
+| ~         | Shift + `          | Shift + `    | Shift + `, **Space**  |
+| '         | '                  | '            | ' , **Space**         |
+| "         | Shift + '          | Shift + '    | Shift + ' , **Space** |
+| ^         | Shift + 6          | Shift + 6    | Shift + 6 , **Space** |
+| ¼         | Shift + AltGr + 6  | *Impossible* | AltGr + 6             |
+| Ä         | AltGr + Shift + q  | *Impossible* | AltGr + Shift + q     |
+| ß         | AltGr + s          | *Impossible* | AltGr + s             |
+| €         | AltGr + 5          | *Impossible* | AltGr + 5             |
+| è         | AltGr + `, e       | *Impossible* | `, e                  |
+| ý         | AltGr + ', y       | *Impossible* | ', y                  |
+
+
 ### Combining Character
 
 In digital typography, combining characters are characters that are intended to modify other characters. 
@@ -32,7 +50,7 @@ It's possible to stack multiple combining characters: ý̀ c̈̃
 
 For more information see: https://en.wikipedia.org/wiki/Combining_character
 
-### Layers
+### Layers in detail
 
 #### Base Layer
 ![Base Layer](images/USCoding.jpg)
@@ -46,22 +64,6 @@ For more information see: https://en.wikipedia.org/wiki/Combining_character
 #### Shifted AltGr Layer
 ![Shifted AltGr Layer](images/USCodingShftAltGr.jpg)
 
-
-## Comparison
-
-| Character | US-Coding          | US-Standard | US-International      |
-| :-------: | ------------------ | ----------- | --------------------- |
-| `         | `                  | `           | ` , **Space**         |
-| ~         | Shift + `          | Shift + `   | Shift + `, **Space**  |
-| '         | '                  | '           | ' , **Space**         |
-| "         | Shift + '          | Shift + '   | Shift + ' , **Space** |
-| ^         | Shift + 6          | Shift + 6   | Shift + 6 , **Space** |
-| ¼         | Shift + AltGr + 6  |             | AltGr + 6             |
-| Ä         | AltGr + Shift + q  |             | AltGr + Shift + q     |
-| ß         | AltGr + s          |             | AltGr + s             |
-| €         | AltGr + 5          |             | AltGr + 5             |
-| è         | AltGr + `, e       |             | `, e                  |
-| ý         | AltGr + ', y       |             | ', y                  |
 
 ## Installation
 Just download the [latest release](https://github.com/trunneml/uscoding-keyboardlayout/releases/latest), unzip it and run `setup.exe`.
