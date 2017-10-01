@@ -50,7 +50,7 @@ Comparison
 
 Installation
 ------------
-Just download the latest release, unzip it and run `setup.exe`.
+Just download the [latest release](https://github.com/trunneml/uscoding-keyboardlayout/releases/latest), unzip it and run `setup.exe`.
 
 
 Manual Build
